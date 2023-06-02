@@ -15,9 +15,18 @@ body{
   display: flex;
   flex-direction: column; 
 }
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  width: 90vw;
+  margin: auto;
+}
+
 .introducao{
   background: blue;
-  flex-grow: 3; /*esticar */
+  /*flex-grow: 3; esticar */
+  margin-top: 70px;
 }
 .conteudo{
   background-color: tomato;
@@ -25,5 +34,6 @@ body{
 }
 .infor{
   background: pink;
-  flex-grow: 3;
+  /*flex-grow: 3;*/
+  margin: 24px;
 }
