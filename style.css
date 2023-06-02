@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* paleta de cores */
+:root{
+  --primary-color: #F5CF06;
+  --secondary-color: #8E4106; /*background: 8E4106; */
+}
+
+body{
+  background: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+}
+.introducao{
+  background: blue;
+  flex-grow: 3; /*esticar */
+}
+.conteudo{
+  background-color: tomato;
+  flex-grow: 3;
+}
+.infor{
+  background: pink;
+  flex-grow: 3;
+}
