@@ -31,10 +31,7 @@ body{
   /*flex-grow: 3; esticar */
   margin-top: 70px;
 }
-.conteudo{
-  background-color: tomato;
-  flex-grow: 3;
-}
+
 .infor{
   background: pink;
   /*flex-grow: 3;*/
@@ -49,7 +46,39 @@ body{
   color: #fff;
   font-size: 2rem;
   color: var(--secondary-color);
-  
+}
+.main{
+    flex-grow: 1;
+  }
 
+.title{
+  position: relative;
+  grid-column: 1/-1;
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+}
+.title_text{
+  font-size: 20vw;
+  color: #fff;
+
+}
+
+.title_sub{
+  position: absolute;
+  top: -25%;
+  font-size: 22vw;
+  color: #fff5;
+  z-index: -1;
+}
+.description{
+  background: forestgreen;
+  grid-column: 1/7;
+}
+.action{
+  background: salmon;
+  grid-column: 7/-1;
 }
 
