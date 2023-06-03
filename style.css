@@ -74,11 +74,20 @@ body{
   z-index: -1;
 }
 .description{
-  background: forestgreen;
   grid-column: 1/7;
+  place-self: center start;
+  color: var(--secondary-color);
 }
 .action{
   background: salmon;
   grid-column: 7/-1;
 }
 
+.description_title{
+  font-size: 4rem;
+}
+
+.description_conteudo{
+  width: 500px;
+  font-size: 1.2rem;
+}
