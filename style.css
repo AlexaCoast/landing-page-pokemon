@@ -79,9 +79,21 @@ body{
   color: var(--secondary-color);
 }
 .action{
-  background: salmon;
-  grid-column: 7/-1;
+  text-decoration: none;
+  place-self: center end;
+  grid-column: 7/-1; 
+  height: 100px;
+  width: 411px;
+  background: var(--secondary-color);
+  color: #fff;
+  font-size: 3rem;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+
 }
+
 
 .description_title{
   font-size: 4rem;
