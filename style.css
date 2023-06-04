@@ -8,8 +8,8 @@
 }
 /* paleta de cores */
 :root{
-  --primary-color: #F5CF06;
-  --secondary-color: #8E4106; /*background: 8E4106; */
+  --primary-color: #8DCD8C;
+  --secondary-color: #4E632B; /*background: 8E4106; */
 }
 
 body{
@@ -79,12 +79,13 @@ body{
 }
 .description{
   grid-column: 1/7;
-  place-self: center start;
+  place-self: start;
   color: var(--secondary-color);
+  z-index: 1;
 }
 .action{
   text-decoration: none;
-  place-self: center end;
+  place-self: start end;
   grid-column: 7/-1; 
   height: 100px;
   width: 411px;
@@ -95,12 +96,14 @@ body{
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 
 }
 
 
 .description_title{
-  font-size: 4rem;
+  font-size: 2rem;
+  
 }
 
 .description_conteudo{
@@ -112,4 +115,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  
+
 }
