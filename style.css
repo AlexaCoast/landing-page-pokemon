@@ -32,10 +32,14 @@ body{
   margin-top: 70px;
 }
 
-.infor{
-  background: pink;
-  /*flex-grow: 3;*/
-  margin: 24px;
+.footer_text{
+  grid-column: 1/-1;
+  place-self: center;
+  margin-bottom: 24px;
+  color: var(--secondary-color);
+  font-size: 1rem;
+
+
 }
 .navbar a{
   grid-column: 1/-1;
