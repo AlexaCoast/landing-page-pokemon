@@ -2,9 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Lora', serif;
-  font-family: 'Open Sans', sans-serif;
-
+  font-family: 'Righteous', cursive;
 }
 /* paleta de cores */
 :root{
@@ -50,6 +48,7 @@ body{
   color: #fff;
   font-size: 2rem;
   color: var(--secondary-color);
+  padding-bottom: 30px;
 }
 .main{
     flex-grow: 1;
@@ -98,6 +97,10 @@ body{
   align-items: center;
   z-index: 1;
 
+}
+
+.action:hover{
+  background: #237122;
 }
 
 
