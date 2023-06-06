@@ -16,28 +16,23 @@ body{
   display: flex;
   flex-direction: column; 
 }
-
 .container{
   display: grid;
   grid-template-columns: repeat(12,1fr);
   width: 90vw;
   margin: auto;
 }
-
 .introducao{
   
   /*flex-grow: 3; esticar */
   margin-top: 70px;
 }
-
 .footer_text{
   grid-column: 1/-1;
   place-self: center;
   margin-bottom: 24px;
   color: var(--secondary-color);
   font-size: 1rem;
-
-
 }
 .navbar a{
   grid-column: 1/-1;
@@ -96,13 +91,10 @@ body{
   justify-content: center;
   align-items: center;
   z-index: 1;
-
 }
-
 .action:hover{
   background: #237122;
 }
-
 
 .description_title{
   font-size: 2rem;
@@ -113,7 +105,6 @@ body{
   width: 500px;
   font-size: 1.2rem;
 }
-
 .chikorita_img{
   position: absolute;
   top: 50%;
